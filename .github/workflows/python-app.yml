@@ -53,12 +53,16 @@ jobs:
       run: |
         docker run --rm -p 3000:3000 ${{ env.IMAGE_TAG }}
 
-    # Step 8: Wait for the Docker container to start
-    - name: Wait for container startup
-      run: |
-        sleep 10
+  run-tests:
+    runs-on: ubuntu-latest
+    needs: build-and-deploy  # Ensure this job runs after the previous job
 
-    # Step 9: Test the API using api_testing.py
+    steps:
+    # Step 1: Checkout the repository again
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # Step 2: Test the API using api_testing.py
     - name: Run API Tests
       run: |
         python api_testing.py
