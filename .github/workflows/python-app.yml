@@ -43,12 +43,12 @@ jobs:
     # Step 5: Containerize BentoML service
     - name: BentoML Containerize
       run: |
-        bentoml containerize score_xg_model:ngx4q7t67w4h5ygc 
+        bentoml containerize score_xg_model:latest 
 
     # Step 6: Run the BentoML Docker container on port 3000
     - name: Run Docker container
       run: |
-        docker run --rm -p 3000:3000 score_xg_model:ngx4q7t67w4h5ygc
+        docker run --rm -p 3000:3000 score_xg_model:latest
 
     # Step 7: Wait for the Docker container to start
     - name: Wait for container startup
