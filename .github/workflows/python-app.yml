@@ -27,6 +27,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install bentoml scikit-learn pandas requests xgboost tqdm numpy
 
+    # Step 4: Export models to BentoML
+    - name: Export models to BentoML
+      run: |
+        # Export tfidf_model.bentomodel
+        bentoml models import tfidf_model.bentomodel
+        # Export xg_model.bentomodel
+        bentoml models import xg_model.bentomodel
+        
     # Step 4: Build BentoML service
     - name: BentoML Build
       run: |
