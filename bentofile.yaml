@@ -1,0 +1,15 @@
+service: "service.py:svc"
+labels:
+  owner: mlops-team
+  project: demo
+include:
+- "*.py"
+python:
+ packages:
+ - scikit-learn
+ - pandas
+ - requests
+ - xgboost
+ - pandas
+ - tqdm
+ - numpy
