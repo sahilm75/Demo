@@ -52,7 +52,7 @@ jobs:
     # Step 7: Run the BentoML Docker container using the captured image name and tag
     - name: Run Docker container
       run: |
-        docker run --rm -p 3000:3000 ${{ env.IMAGE_TAG }}
+        docker run --rm -d -p 3000:3000 ${{ env.IMAGE_TAG }}
 
     # Step 8: Wait for the Docker container to start
     - name: Wait for container startup
