@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/a40eb889d87f4af998aac0c1d1ef76f7/artifacts
+end_time: 1731818316496
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a40eb889d87f4af998aac0c1d1ef76f7
+run_name: big-lynx-886
+run_uuid: a40eb889d87f4af998aac0c1d1ef76f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731818316484
+status: 3
+tags: []
+user_id: sahil

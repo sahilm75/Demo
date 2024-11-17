@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/cf86e1b1cb4848c894cc0928d265b9a0/artifacts
+end_time: 1727776084337
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf86e1b1cb4848c894cc0928d265b9a0
+run_name: capable-moose-499
+run_uuid: cf86e1b1cb4848c894cc0928d265b9a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727776083821
+status: 3
+tags: []
+user_id: sahil

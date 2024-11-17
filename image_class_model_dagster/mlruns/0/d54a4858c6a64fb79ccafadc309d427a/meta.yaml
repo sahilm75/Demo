@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/d54a4858c6a64fb79ccafadc309d427a/artifacts
+end_time: 1731818313695
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d54a4858c6a64fb79ccafadc309d427a
+run_name: likeable-mare-76
+run_uuid: d54a4858c6a64fb79ccafadc309d427a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731818313102
+status: 3
+tags: []
+user_id: sahil

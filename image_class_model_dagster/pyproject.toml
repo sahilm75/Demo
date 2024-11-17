@@ -1,0 +1,7 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.dagster]
+module_name = "image_class_model_dagster.definitions"
+code_location_name = "image_class_model_dagster"
