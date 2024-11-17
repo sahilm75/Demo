@@ -54,12 +54,7 @@ jobs:
       run: |
         docker run --rm -d -p 3000:3000 ${{ env.IMAGE_TAG }}
 
-    # Step 8: Wait for the Docker container to start
-    - name: Wait for container startup
-      run: |
-        sleep 10
-
-    # Step 9: Test the API using api_testing.py
+    # Step 8: Test the API using api_testing.py
     - name: Run API Tests
       run: |
         python api_testing.py

@@ -4,6 +4,10 @@
 
 1. **Install the requirements:**
     ```bash
+    pip install bentoml scikit-learn pandas requests xgboost tqdm numpy
+    ```
+    OR
+    ```bash
     pip install -r requirements.txt
     ```
 
